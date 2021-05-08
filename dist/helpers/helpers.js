@@ -1,0 +1,21 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.generatePosition = void 0;
+
+var generatePosition = function generatePosition(divider, min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  var i = -1;
+
+  do {
+    i = Math.floor(Math.random() * (max - min)) + min;
+  } while (i % divider);
+
+  return i;
+};
+
+exports.generatePosition = generatePosition;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9oZWxwZXJzL2hlbHBlcnMudHMiXSwibmFtZXMiOlsiZ2VuZXJhdGVQb3NpdGlvbiIsImRpdmlkZXIiLCJtaW4iLCJtYXgiLCJNYXRoIiwiY2VpbCIsImZsb29yIiwiaSIsInJhbmRvbSJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFPLElBQU1BLGdCQUFnQixHQUFHLFNBQW5CQSxnQkFBbUIsQ0FBQ0MsT0FBRCxFQUFrQkMsR0FBbEIsRUFBK0JDLEdBQS9CLEVBQStDO0FBQzdFRCxFQUFBQSxHQUFHLEdBQUdFLElBQUksQ0FBQ0MsSUFBTCxDQUFVSCxHQUFWLENBQU47QUFDQUMsRUFBQUEsR0FBRyxHQUFHQyxJQUFJLENBQUNFLEtBQUwsQ0FBV0gsR0FBWCxDQUFOO0FBQ0EsTUFBSUksQ0FBQyxHQUFHLENBQUMsQ0FBVDs7QUFDQSxLQUFHO0FBQ0RBLElBQUFBLENBQUMsR0FBR0gsSUFBSSxDQUFDRSxLQUFMLENBQVdGLElBQUksQ0FBQ0ksTUFBTCxNQUFpQkwsR0FBRyxHQUFHRCxHQUF2QixDQUFYLElBQTBDQSxHQUE5QztBQUNELEdBRkQsUUFFU0ssQ0FBQyxHQUFHTixPQUZiOztBQUdBLFNBQU9NLENBQVA7QUFDRCxDQVJNIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IGdlbmVyYXRlUG9zaXRpb24gPSAoZGl2aWRlcjogbnVtYmVyLCBtaW46IG51bWJlciwgbWF4OiBudW1iZXIpID0+IHtcclxuICBtaW4gPSBNYXRoLmNlaWwobWluKTtcclxuICBtYXggPSBNYXRoLmZsb29yKG1heCk7XHJcbiAgbGV0IGkgPSAtMTtcclxuICBkbyB7XHJcbiAgICBpID0gTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogKG1heCAtIG1pbikpICsgbWluO1xyXG4gIH0gd2hpbGUgKGkgJSBkaXZpZGVyKTtcclxuICByZXR1cm4gaTtcclxufTtcclxuIl19

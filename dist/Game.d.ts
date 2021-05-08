@@ -23,7 +23,6 @@ export declare class Game {
     private redraw;
     private createUserEvents;
     private pressKeyEventHandler;
-    private releaseKeyEventHanlde;
     private setDirection;
     private showScore;
 }

@@ -1,0 +1,6 @@
+"use strict";
+
+var _Game = require("./Game");
+
+new _Game.Game(20);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9tYWluLnRzIl0sIm5hbWVzIjpbIkdhbWUiXSwibWFwcGluZ3MiOiI7O0FBQUE7O0FBRUEsSUFBSUEsVUFBSixDQUFTLEVBQVQiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBHYW1lIH0gZnJvbSBcIi4vR2FtZVwiO1xyXG5cclxubmV3IEdhbWUoMjApO1xyXG4iXX0=
